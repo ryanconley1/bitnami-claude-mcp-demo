@@ -1,0 +1,118 @@
+{
+  "entries": {
+    "airflow": {
+      "versions": [
+        {
+          "version": "22.7.2",
+          "appVersion": "2.10.5",
+          "name": "airflow",
+          "urls": [
+            "registry-1.docker.io/bitnamicharts/airflow:22.7.2"
+          ],
+          "digest": "sha256:4031c17d5b5243eca767fd531e7ccced2ea4253246541cf296c4aba8f50cde74",
+          "releasedAt": "2025-03-25T20:09:38.629793931Z",
+          "releaseId": "67e30d82e4a44b3975a2a73d",
+          "applicationId": "8143bf5d-09c1-4725-9a5b-a46c2f6ee11c",
+          "branch": "2",
+          "revision": "6"
+        },
+        {
+          "version": "22.7.1",
+          "appVersion": "2.10.5",
+          "name": "airflow",
+          "urls": [
+            "registry-1.docker.io/bitnamicharts/airflow:22.7.1"
+          ],
+          "digest": "sha256:cff144a01800d1ed5d396db81f322b194605e023024fb84b3cf1a21ed41b72fd",
+          "releasedAt": "2025-03-22T03:42:32.744372825Z",
+          "releaseId": "67de31a8e9c47a6256d2b83e",
+          "applicationId": "8143bf5d-09c1-4725-9a5b-a46c2f6ee11c",
+          "branch": "2",
+          "revision": "5"
+        }
+      ],
+      "metadata": {
+        "displayName": "Apache Airflow",
+        "description": "Apache Airflow is a tool to express and execute workflows as directed acyclic graphs (DAGs). It includes utilities to schedule tasks, monitor task progress and handle task dependencies.",
+        "category": "Workflow",
+        "appKey": "airflow",
+        "tanzuCategory": "service"
+      }
+    },
+    "apache": {
+      "versions": [
+        {
+          "version": "11.3.5",
+          "appVersion": "2.4.63",
+          "name": "apache",
+          "urls": [
+            "registry-1.docker.io/bitnamicharts/apache:11.3.5"
+          ],
+          "digest": "sha256:b589ae3c1653cfba470f03751d71a7590f0b0667a99929b4d7257a5a56f192ab",
+          "releasedAt": "2025-03-27T19:17:10.488903399Z",
+          "releaseId": "67e5a436dac2838f64e8ca3c",
+          "applicationId": "8e4de453-13d1-462a-947c-3c68c88d652f",
+          "branch": "2.4",
+          "revision": "3"
+        },
+        {
+          "version": "11.3.4",
+          "appVersion": "2.4.63",
+          "name": "apache",
+          "urls": [
+            "registry-1.docker.io/bitnamicharts/apache:11.3.4"
+          ],
+          "digest": "sha256:2bc2f7c95dbcc1102615f2e9ee381d923f06ea0126cb5c1461b8a8eebbf46d5c",
+          "releasedAt": "2025-02-25T21:29:18.174034891Z",
+          "releaseId": "67be362e647aa5b343881b45",
+          "applicationId": "8e4de453-13d1-462a-947c-3c68c88d652f",
+          "branch": "2.4",
+          "revision": "2"
+        }
+      ],
+      "metadata": {
+        "displayName": "Apache",
+        "description": "Apache HTTP Server is an open-source HTTP server. The goal of this project is to provide a secure, efficient and extensible server that provides HTTP services in sync with the current HTTP standards.",
+        "category": "Application Server",
+        "appKey": "apache",
+        "tanzuCategory": "service"
+      }
+    },
+    "flink": {
+      "versions": [
+        {
+          "version": "2.0.0",
+          "appVersion": "2.0.0",
+          "name": "flink",
+          "urls": [
+            "registry-1.docker.io/bitnamicharts/flink:2.0.0"
+          ],
+          "digest": "sha256:99bdaaac8bfb489b090200200f1f5e059df4ac20b150bad572dffa9945bd518c",
+          "releasedAt": "2025-03-28T10:14:49.420833538Z",
+          "releaseId": "67e67699b7c733c0144383e0",
+          "applicationId": "10d1404c-7b3a-440c-afcb-6bd0e3ea8973",
+          "branch": "2",
+          "revision": "0"
+        },
+        {
+          "version": "1.3.1",
+          "appVersion": "1.19.0",
+          "name": "flink",
+          "urls": [
+            "registry-1.docker.io/bitnamicharts/flink:1.3.1"
+          ],
+          "digest": "sha256:ea94ebfb1944164aad8619099fcb0135a627ef85cf4c947c3e32b26061d10d32",
+          "releasedAt": "2024-06-04T16:08:56.065321009Z"
+        }
+      ],
+      "metadata": {
+        "displayName": "Apache Flink",
+        "description": "Apache Flink is a framework and distributed processing engine for stateful computations over unbounded and bounded data streams.",
+        "category": "Developer Tools",
+        "appKey": "flink",
+        "tanzuCategory": "application"
+      }
+    }
+  },
+  "apiVersion": "v1"
+}
