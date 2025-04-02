@@ -25,10 +25,10 @@ The project is actually very simple and most of the logic is inside he Helm serv
 At a glance, the MCPApplication instructs Spring AI to introspect tools:
 
 ```java
-	@Bean
-	public List<ToolCallback> bitnamiTools(HelmService helmService) {
-		return List.of(ToolCallbacks.from(helmService));
-	}
+    @Bean
+    public List<ToolCallback> bitnamiTools(HelmService helmService) {
+        return List.of(ToolCallbacks.from(helmService));
+    }
 ```
 
 And the Helm service defines the different tool methods:
