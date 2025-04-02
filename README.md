@@ -112,5 +112,11 @@ These three Helm charts are specifically categorized as Infrastructure. There ar
 ....
 ```
 
+# Possible improvements
 
+There are many things that can be improved in additional interations on this very simplistic tool, like for example:
+
+* Consume the whole Helm template and use it to get additional context and suggestions
+* Integrate with the actual GitHub Bitnami issues, pull requests or changelog to get better answers for issues, solutions, recommendations or changes across versions
+* Implement support to run actual Helm commands like what the [Kubernetes MCP server does](https://github.com/Flux159/mcp-server-kubernetes/blob/main/src/tools/helm-operations.ts).
 
