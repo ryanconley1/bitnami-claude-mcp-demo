@@ -122,7 +122,6 @@ public class OciClient {
                     System.err.printf("Found charts index. Pulling entries. [path=%s, tag=%s]", path, chartsIndexTag);
                     index.append(path, convertToChartIndex(path,
                             pullManifest(path, "latest")));
-                    break;
                 }
             }
         }
