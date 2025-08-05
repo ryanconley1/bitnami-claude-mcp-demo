@@ -3,7 +3,10 @@ A demo on how to integrate Bitnami Helm charts with Helm charts from Bitnami Sec
 
 *Note: This is a demo/proof of concept. It is not meant to be part of Bitnami Secure Images or Tanzu Application Catalog and rather it is meant to serve as a demonstration of how easy it can be to integrate Bitnami Helm charts as a source of data to AI agents. 
 
-This project is built with [Spring AI](https://spring.io/projects/spring-ai). I highly recommend [Dan Vega's introduction to MCP video](https://www.youtube.com/watch?v=w5YVHG1j3Co) as a quick way to get you ramped up with [Model Context Protocol](https://github.com/modelcontextprotocol). 
+This project is built with [Spring AI](https://spring.io/projects/spring-ai). I highly recommend [Dan Vega's introduction to MCP video](https://www.youtube.com/watch?v=w5YVHG1j3Co) as a quick way to ramp up with [Model Context Protocol](https://github.com/modelcontextprotocol).  
+
+To dive deeper into AI Frameworks with Spring AI, we recommend Dan Vega's deep dive workshop, [AI for Java Developers: Full Course / Workshop on Getting Started with Spring AI](https://www.youtube.com/watch?v=FzLABAppJfM).
+
 
 # Architecture
 As with most MCP applications the architecture is actually quite simple. Note also that I have just tested this project in stdio mode, although I don't see any reason why it wouldn't work in HTTP SSE mode. 
